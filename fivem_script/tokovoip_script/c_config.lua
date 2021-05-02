@@ -60,7 +60,7 @@ AddEventHandler("onClientResourceStart", function(resource)
 				TokoVoipConfig.plugin_data.localName = escape(GetPlayerName(PlayerId())); -- Set the local name
 			end
 		end);
-		TriggerEvent("initializeVoip"); -- Trigger this event whenever you want to start the voip
+		-- TriggerEvent("initializeVoip"); -- Trigger this event whenever you want to start the voip
 	end
 end)
 
